@@ -8,7 +8,7 @@
 - os.path
 
 # Summary:
-This scraper allows the user to pull 13F- HR fillings for any particular fund using its CIK ticker> 13F-HR filling is filled by mutual funds every quarter to report their holdings. This scraper accesses these filings on SEC website and saves the holdings data into a text file. By defualt the crawler is set to pull the latest report for the given ticker however it allows the user to pull multiple ticker and multiple reports for a single ticker with single command.
+This scraper allows the user to pull 13F- HR fillings for any particular fund using its CIK ticker> 13F-HR filing is filled by mutual funds every quarter to report their holdings. This scraper accesses these filings on SEC website and saves the holdings data into a text file. By default the crawler is set to pull the latest report for the given ticker, however, it allows the user to pull multiple tickers and multiple reports for a single ticker with a single command.
 
 # The data can be pulled straight from the command prompt:
 - To pull a single file for a fund:
