@@ -13,15 +13,15 @@ This scraper allows the user to pull 13F- HR fillings for any particular fund us
 
 # The data can be pulled straight from the command prompt:
 - To pull a single file for a fund:
- 	+ python crawler.py <CIK>
+ 	+ python crawler.py CIK
 - To pull several funds at the same time:
-	+	python crawler.py <CIK1> <CIK2> . . .
+	+	python crawler.py CIK1 CIK2 . . .
 - To pull multiple/historical reporting: 
-	+ python crawler.py <CIK1> -n <number of filing you want to pull>
+	+ python crawler.py CIK1 -n number_of_filing_you_want_to_pull
 - To pull multiple filings for multiple tickers:	
-	+ python crawler.py <CIK1> -n <number of filings1> <CIK2> -n <number of filings2>
+	+ python crawler.py CIK1 -n number_of_filing_you_want_to_pull_1 CIK2 -n number_of_filing_you_want_to_pull_2
 - Can also do:
-	+ python crawler.py <CIK1> -n <number of filings> <CIK2>
+	+ python crawler.py CIK1 -n number_of_filing_you_want_to_pull_1 CIK2
 	(this will pull the specified number of filings for CIK1 but will pull only the latest filing for CIK2 )
 
 # Some inconsistencies in the reporting strucutre:
